@@ -79,3 +79,7 @@ article {
   float: right;
   width: 125px;
 }
+
+footer img {
+  width: 40px;
+}
