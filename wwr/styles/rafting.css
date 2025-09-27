@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #568a56; /* forent green */
+  --primary-color: #5bb45b; /* forent green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #35667a; /* dark slate blue */
   --accent2-color: #e9c46a; /* light golden yellow */
@@ -135,7 +135,7 @@ article {
   text-align: center;
 }
 
-.adventures_section figure {
+.adventures_section div {
   margin-top: 10px;
   display: grid;
   justify-items: center;
