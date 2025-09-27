@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #5bb45b; /* forent green */
+  --primary-color: #547c54; /* forent green */
   --secondary-color: #f4a261; /* warm sand */
   --accent1-color: #35667a; /* dark slate blue */
   --accent2-color: #e9c46a; /* light golden yellow */
@@ -15,7 +15,6 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
 }
 
 header,
@@ -28,7 +27,7 @@ footer {
 h1,
 h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: white;
 }
 
 nav,
@@ -86,7 +85,7 @@ h1 {
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   color: #fff; /* white text - make sure there is enough */
 }
 
@@ -96,7 +95,7 @@ article {
   position: absolute;
   width: 95%;
   left: 21px;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   color: #fff;
   margin: 0;
   opacity: 0.7;
@@ -110,7 +109,7 @@ article {
 
 .history_section {
   margin: 10px 0 0 0;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   color: white;
   display: grid;
   grid-template-columns: 1fr 0.7fr 1fr;
@@ -129,7 +128,7 @@ article {
 
 .adventures_section {
   margin: 10px 0 0 0;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   padding: 20px;
   color: white;
   text-align: center;
