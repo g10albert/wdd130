@@ -78,7 +78,7 @@ nav ul {
   height: auto;
 }
 
-h1 {
+.about_h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -174,4 +174,94 @@ footer p {
 
 footer img {
   width: 30px;
+}
+
+.contact_info p,
+.contact_info h1 {
+  color: black;
+  padding: 0;
+}
+
+.contact_info {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15px 10px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-item {
+  display: contents;
+}
+
+form label {
+  align-self: center;
+  padding-right: 10px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.full-width-label label {
+  text-align: left;
+  grid-column: 1/-1;
+  padding-bottom: 5px;
+}
+
+.full-width-input textarea {
+  grid-column: 1 / -1;
+  resize: vertical;
+}
+.radio-group > label {
+  grid-column: 1/-1;
+  text-align: left;
+}
+
+.radio-group > div {
+  grid-column: 1/-1;
+  margin-top: -10px;
+  padding-left: 10px;
+}
+
+radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radio-group label {
+  text-align: left;
+  padding-right: 0;
+}
+
+.checkbox-row {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.submit-button {
+  grid-column: 1/-1;
+  padding: 10px 10px;
+}
+
+iframe {
+  width: 45%;
+}
+
+.form {
+  width: 45%;
 }
