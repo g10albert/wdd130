@@ -328,6 +328,7 @@ fieldset {
   padding: 10px;
   background: var(--primary-color);
   text-align: center;
+  height: 180px;
 }
 
 .cta_button {
